@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?sre8kd');
+  src:  url('fonts/icomoon.eot?sre8kd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sre8kd') format('truetype'),
+    url('fonts/icomoon.woff?sre8kd') format('woff'),
+    url('fonts/icomoon.svg?sre8kd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-camera:before {
+  content: "\f030";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-trophy:before {
+  content: "\f091";
+}
+.icon-coffee:before {
+  content: "\f0f4";
+}
+.icon-television:before {
+  content: "\1f315";
+}
+.icon-tv:before {
+  content: "\1f315";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-file-empty:before {
+  content: "\e924";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
